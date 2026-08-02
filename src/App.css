@@ -1,0 +1,10 @@
+.project-item {
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+  border: solid var(--snow-1) 1px;
+  border-radius: 15px;
+}
+
+.project-link {
+  color: var(--aurora-green);
+}

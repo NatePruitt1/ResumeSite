@@ -1,0 +1,21 @@
+services:
+  cloudflared-tunnel:
+    image: cloudflare/cloudflared:latest
+    restart: unless-stopped
+    volumes:
+      - /etc/cloudflared:/etc/cloudflared:ro
+    command: tunnel --config /etc/cloudflared/main_config.yml run
+    networks:
+      - app-network
+    depends_on:
+      - frontend-nginx
+  
+  frontend-nginx:
+    build:
+      context: .
+      dockerfile: ./dockerfile
+    networks:
+      - app-network
+
+networks:
+    app-network:
