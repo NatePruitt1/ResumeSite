@@ -92,7 +92,7 @@ function App() {
           <h4>MiniKernel</h4>
           <p>A simple bare-metal kernel written in ARM Assembly/C for the raspberry pi 3b. Current targets include build a simple file system, and multitasking user-space (EL0) program execution.</p>
           <p className='warning'><b>Note: This project is still under active development.</b></p>
-          <p>Github <a href='https://github.com/NatePruitt1/MiniKernel' className='project-link'>https://github.com/NatePruitt1/MiniKernel</a></b></p>
+          <p><b>Github <a href='https://github.com/NatePruitt1/MiniKernel' className='project-link'>https://github.com/NatePruitt1/MiniKernel</a></b></p>
         </div>
 
         <pre className='main smallest'>{contactAsciiArt}</pre>
