@@ -88,6 +88,13 @@ function App() {
           <p><b>Website <a href='https://kanban.nathanielpruitt.com' className='project-link'>https://kanban.nathanielpruitt.com</a> - Github <a href='https://github.com/NatePruitt1/TodoApp' className='project-link'>https://github.com/NatePruitt1/TodoApp</a></b></p>
         </div>
 
+        <div className='project-item'>
+          <h4>MiniKernel</h4>
+          <p>A simple bare-metal kernel written in ARM Assembly/C for the raspberry pi 3b. Current targets include build a simple file system, and multitasking user-space (EL0) program execution.</p>
+          <p className='warning'><b>Note: This project is still under active development.</b></p>
+          <p>Github <a href='https://github.com/NatePruitt1/MiniKernel' className='project-link'>https://github.com/NatePruitt1/MiniKernel</a></b></p>
+        </div>
+
         <pre className='main smallest'>{contactAsciiArt}</pre>
         <p className='centered-text'>
           <b>
